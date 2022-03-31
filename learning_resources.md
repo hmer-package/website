@@ -2,7 +2,7 @@
 title: Learn about the hmer package!
 ---
 
-[<- Back to main page](https://danny-sc.github.io/hmer_website/)
+[<- Back to main page](https://hmer-package.github.io/website/)
 
 In this section you will find several resources to learn about the history matching with emulation framework and how to implement such method through the _hmer_ package.
 
