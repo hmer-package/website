@@ -2,7 +2,7 @@
 title: 24 May 2022 hmer workshop
 ---
 
-[<- Back to main page](https://danny-sc.github.io/hmer_website/)
+[<- Back to main page](https://hmer-package.github.io/website/)
 
 On **May 24th 2022** we will hold a day-long, in-person workshop **"Calibrating complex models through history matching and emulation: an introduction to the R-package _hmer_"** at the [London School of Hygiene and Tropical Medicine](https://www.lshtm.ac.uk/aboutus/contact/location) (WC1E 7HT, Keppel Street Building, room LG07). 
 
