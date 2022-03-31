@@ -22,9 +22,7 @@ In the _hmer_ package, to train emulators, we forego a full Bayesian approach an
 ## Template to set up HME on your model 
 This repository contains an R-script called _Template_hmer_script_ that will guide you through setting up history matching with emulation on your model of interest.
 
-## Research papers that performed HME through _hmer_ 
-
-(to be filled)
+## [Research papers that performed HME through _hmer_](https://hmer-package.github.io/website/papers)
 
 ## Package development contributors 
 
