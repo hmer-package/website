@@ -19,15 +19,12 @@ In the _hmer_ package, to train emulators, we forego a full Bayesian approach an
 
 ## [Learn about HME and _hmer_](https://hmer-package.github.io/website/learning_resources)  
 
-<br/><br/>
 
 ## [Workshops](https://hmer-package.github.io/website/24may2022workshop) 
 
-<br/><br/>
 
 ## [Research papers that performed HME through _hmer_](https://hmer-package.github.io/website/papers)
 
-<br/><br/>
 
 ## Template to set up HME on your model 
 This repository contains an R-script called _Template_hmer_script_ that will guide you through setting up history matching with emulation on your model of interest.
@@ -43,5 +40,3 @@ This repository contains an R-script called _Template_hmer_script_ that will gui
 - [Richard White](https://www.lshtm.ac.uk/aboutus/people/white.richard)
 
 The development of the _hmer_ package was supported by the Wellcome Trust. <img src="wellcome_trust.png" width="75">
-
-che palle
