@@ -44,3 +44,4 @@ This repository contains an R-script called _Template_hmer_script_ that will gui
 
 The development of the _hmer_ package was supported by the Wellcome Trust. <img src="wellcome_trust.png" width="75">
 
+che palle
