@@ -1,7 +1,7 @@
 ---
 title: Welcome to the hmer package website! 
 ---
-<img src="logos.PNG" width="185">  
+![logos](logos.PNG)
 
 @media only screen and (max-width: 480px) {body { background:yellow } }
 
