@@ -300,7 +300,7 @@ small {
   font-size:12px;
 }
 
-nav {
+{
   width: 230px;
   position: fixed;
   top: 220px;
@@ -373,7 +373,7 @@ footer {
   }
 
   nav{
-    display: block;
+    display: inline;
   }
 
   header, section, footer {
@@ -518,7 +518,7 @@ footer {
 
 @media print, screen and (max-height: 480px) {
   nav {
-    display: block;
+    display: inline;
   }
 
   footer {
