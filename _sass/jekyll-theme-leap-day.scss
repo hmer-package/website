@@ -373,7 +373,7 @@ footer {
   }
 
   nav{
-    display: inline;
+    display: none;
   }
 
   header, section, footer {
@@ -518,7 +518,7 @@ footer {
 
 @media print, screen and (max-height: 480px) {
   nav {
-    display: inline;
+    display: none;
   }
 
   footer {
