@@ -5,6 +5,10 @@ title: Welcome to the hmer package website!
 
 <style> body { background:red } </style>
 
+@media only screen and (max-width: 480px) {
+<style> body { background:yellow } </style>
+}
+
 ## Background 
 Infectious disease models are widely used by epidemiologists to improve the understanding of transmission dynamics and disease natural history, and to predict the possible effects of interventions. As the complexity of such models increases, however, it becomes increasingly challenging to robustly calibrate them to empirical data. History matching with emulation (HME) is a calibration method that has been successfully applied to such models, but has not been widely used in epidemiology partly due to the lack of available software. To address this issue, we developed a new, user-friendly R package _hmer_ to simply and efficiently perform history matching with emulation.
 
