@@ -19,6 +19,8 @@ In the _hmer_ package, to train emulators, we forego a full Bayesian approach an
 
 ## [Learn about HME and _hmer_](https://hmer-package.github.io/website/learning_resources)  
 
+<br/><br/>
+
 ## [Workshops](https://hmer-package.github.io/website/24may2022workshop) 
 
 ## [Research papers that performed HME through _hmer_](https://hmer-package.github.io/website/papers)
