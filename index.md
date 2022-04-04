@@ -1,8 +1,5 @@
 ---
 title: Welcome to the hmer package website! 
-@media (max-width: 880px) {  
-title: Vvvvv
-}
 ---
 
 ![logos](logos.PNG)
