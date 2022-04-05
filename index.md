@@ -2,7 +2,7 @@
 title: Welcome to the hmer package website! 
 ---
 
-<head>
+<banner>
 <style>
 ul {
   list-style-type: none;
@@ -10,7 +10,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #4276b6;
-  position: fixed;
 }
 
 li {
@@ -35,7 +34,7 @@ li a:hover {
   <li><a href="learning_resources.html">Learning resources</a></li>
   <li><a href="papers.html">Research articles</a></li>
 </ul>
-</head>
+</banner>
   
 ![logos](logos.PNG)
 
