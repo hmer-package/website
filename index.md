@@ -28,8 +28,6 @@ li a:hover {
   background-color: #111;
 }
 </style>
-</head>
-<body>
 
 <ul>
   <li><a class="active" href="index.html">Home</a></li>
