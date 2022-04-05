@@ -23,7 +23,7 @@ The first resource to learn about _hmer_ is the case study below, which demonstr
 
 - [Deterministic tutorial](https://danny-sc.github.io/Tutorial_2/)
 
-We also created a practical tutorial that offers a more interactive introduction to _hmer_. This is also based on a deterministic SEIRS model, but it is more interactive and requires that you complete tasks writing code in R.
+We also created a practical tutorial that offers a more interactive introduction to _hmer_. This is also based on a deterministic SEIRS model, but it is more interactive and requires you to complete tasks writing code in R.
 
 - [Deterministic practical tutorial](https://danny-sc.github.io/determ_workshop/)
 
