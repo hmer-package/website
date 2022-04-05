@@ -9,7 +9,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #4276b6;
 }
 
 li {
@@ -31,8 +31,8 @@ li a:hover {
 
 <ul>
   <li><a class="active" href="index.html">Home</a></li>
-  <li><a href="papers.html">News</a></li>
-  <li><a href="learning_resources.hmtl">Contact</a></li>
+  <li><a href="learning_resources.html">Learning resources</a></li>
+  <li><a href="papers.html">Research articles</a></li>
 </ul>
 </head>
   
