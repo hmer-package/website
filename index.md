@@ -34,7 +34,7 @@ li a:hover {
   <li><a href="papers.html">News</a></li>
   <li><a href="learning_resources.hmtl">Contact</a></li>
 </ul>
-<head>
+</head>
   
 ![logos](logos.PNG)
 
