@@ -11,7 +11,7 @@ In this section you will find several resources to learn about the history match
 To start familiarising yourself with history matching with emulation, we created a brief introduction to the method, using a simple one-dimensional example:
 - [Introduction to HME](https://danny-sc.github.io/Tutorial_1/)
 
-You can also take a look at the following epidemiological papers that also contain a brief but exhastive explanation of history matching with emulation:
+You can also take a look at the following epidemiological papers that demonstrate the use of history matching with emulation for the calibration of HIV models:
 - [Bayesian History Matching of Complex Infectious Disease Models Using Emulation: A Tutorial and a Case Study on HIV in Uganda](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003968)
 - [History matching of a complex epidemiological
 model of human immunodeficiency virus
