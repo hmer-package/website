@@ -17,7 +17,7 @@ To participate in this workshop, please [register here](https://www.eventbrite.c
 | Time  |                                                                                                              |
 |-------|--------------------------------------------------------------------------------------------------------------|
 | 10:30 | Welcome (coffee and tea)                                                                                     |
-| 11:00 | Introduction to History Matching with Emulation (Lecture)                                                    |
+| 11:00 | Introduction to History Matching with Emulation (Presentation)                                               |
 | 12:00 | Lunch break                                                                                                  |
 | 13:00 | Guided R-practical on the calibration of deterministic models (part 1)                                       |
 | 14:30 | Coffee and tea break                                                                                         |
