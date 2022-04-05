@@ -48,5 +48,3 @@ The development of the _hmer_ package was supported by the Wellcome Trust. <img 
   <p align="center" class="txt">Subscribe E-mail:<br>
     <input name="email" type="text" size="12" class="txtbox">
     <input type="submit" name="Submit" value="Go" class="button">
-  </fieldset>
-</form>
