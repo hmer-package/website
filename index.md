@@ -41,3 +41,12 @@ This repository contains an R-script called _Template_hmer_script_ that will gui
 - [Richard White](https://www.lshtm.ac.uk/aboutus/people/white.richard)
 
 The development of the _hmer_ package was supported by the Wellcome Trust. <img src="wellcome_trust.png" width="75">
+
+<link href="NL-style.css" rel="stylesheet" type="text/css">
+<form name="form1" method="post" action="NLprocess.php" class="bk">
+  <fieldset>
+  <p align="center" class="txt">Subscribe E-mail:<br>
+    <input name="email" type="text" size="12" class="txtbox">
+    <input type="submit" name="Submit" value="Go" class="button">
+  </fieldset>
+</form>
