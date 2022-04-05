@@ -232,36 +232,6 @@ header {
     }
   }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #4276b6;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
-<ul>
-  <li><a class="active" href="index.html">Home</a></li>
-  <li><a href="learning_resources.html">Learning resources</a></li>
-  <li><a href="papers.html">Research articles</a></li>
-</ul>
-
   .fork {
     position:fixed;
     left:50%;
