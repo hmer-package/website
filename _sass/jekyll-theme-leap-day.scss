@@ -300,61 +300,42 @@ small {
   font-size:12px;
 }
 
-nav {
-  width: 230px;
-  position: fixed;
-  top: 220px;
-  left:50%;
-  margin-left:-580px;
-  text-align: right;
-
-  ul {
-    list-style: none;
-    list-style-image:none;
-    font-size: 14px;
-    line-height:24px;
-
-    li {
-      padding: 5px 0px;
-      line-height: 16px;
-      // padding-right:17px;
-      // position:relative;
-      // right:-12px;
-
-      &.tag-h1 {
-        font-size: 1.2em;
-
-        a {
-          font-weight: bold;
-          color: #333;
-        }
-
-        + .tag-h2 {
-
-        }
-      }
-
-      &.tag-h2 {
-
-        + .tag-h1 {
-          margin-top:10px;
-        }
-      }
-    }
-
-    a {
-      color: #666;
-
-      &:hover { color: #999; }
-    }
-
-    // .active {
-    //   border-right:solid 4px #39C;
-    //   padding-right:13px;
-    // }
-  }
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="index.md">Home</a></li>
+  <li><a href="papers.md">News</a></li>
+  <li><a href="learning_resources.md">Contact</a></li>
+</ul>
+
+</body>
 footer {
   width:180px;
   position: fixed;
