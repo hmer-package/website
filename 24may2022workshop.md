@@ -10,7 +10,7 @@ This **day-long**, **in-person workshop** will take place on **May 24th 2022** a
 
 Participants will familiarise themselves with the history matching and emulation framework and will learn how to implement such technique to calibrate deterministic and stochastic models using _hmer_. The workshop will be run by a combination of LSHTM members and external speakers and will consist both of short, introductory presentations and of practical, hands-on tutorials.
 
-To participate in this workshop, please register here ...
+To participate in this workshop, please [register here](https://www.eventbrite.co.uk/e/workshop-an-introduction-to-the-r-package-hmer-registration-314475212827)
 
 ### Programme (times tbc) 
 
