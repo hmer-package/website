@@ -14,6 +14,16 @@ body {
   margin: 0px;
   padding:0px 0 20px 0px;
   background: url(../images/body-background.png) #eae6d1;
+<link href="NL-style.css" rel="stylesheet" type="text/css">
+<form name="form1" method="post" action="NLprocess.php" class="bk">
+  <fieldset>
+  <p align="center" class="txt">Subscribe E-mail:<br>
+    <input name="email" type="text" size="12" class="txtbox">
+    <input type="submit" name="Submit" value="Go" class="button">
+    <br>
+    by <a href="http://www.sendblaster.com" title="Free mailing list manager and bulk email desktop software">SendBlaster</a></p>
+  </fieldset>
+</form>
 }
 
 h1, h2, h3, h4, h5, h6 {
