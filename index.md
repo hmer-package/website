@@ -34,11 +34,12 @@ li a:hover {
 <body>
 
 <ul>
-  <li><a class="active" href="index.md">Home</a></li>
+  <li><a class="active" href="index.html">Home</a></li>
   <li><a href="papers.md">News</a></li>
   <li><a href="learning_resources.md">Contact</a></li>
 </ul>
-
+<head>
+  
 ## Background 
 Infectious disease models are widely used by epidemiologists to improve the understanding of transmission dynamics and disease natural history, and to predict the possible effects of interventions. As the complexity of such models increases, however, it becomes increasingly challenging to robustly calibrate them to empirical data. History matching with emulation (HME) is a calibration method that has been successfully applied to such models, but has not been widely used in epidemiology partly due to the lack of available software. To address this issue, we developed a new, user-friendly R package _hmer_ that allows you to simply and efficiently perform history matching with emulation.
 
