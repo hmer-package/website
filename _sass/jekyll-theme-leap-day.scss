@@ -290,14 +290,15 @@ header {
   background-color: #4276b6;
   position: fixed; /* Set the navbar to fixed position */
   top: 165px; /* Position the navbar at the top of the page */
-  width: 590px; /* Full width */
+  width: 650px; /* Full width */
+  margin:0 auto;
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: left;
   display: block;
-  color: #ffcc00;
+  color:  #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -305,7 +306,7 @@ header {
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background: #ddd;
+  background: #ffcc00;
   color: black;
 }
 
