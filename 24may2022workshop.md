@@ -5,13 +5,9 @@
   <a href="papers.html">Research papers</a>
 </div>
 
-<br> 
-
 <br>
 
-<br>
-
-<br>
+![logos](logos.PNG)
 
 ## 24 May 2022 Workshop - An introduction to the R-package _hmer_
 
