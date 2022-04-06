@@ -5,9 +5,6 @@ title: Welcome to the hmer package website!
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {
-  font-family: "Lato", sans-serif;
-}
 
 .sidenav {
   height: 100%;
@@ -46,10 +43,11 @@ body {
 </style>
 </head>
 
+<body>
 <div class="sidenav">
   <a href="index.html">Home</a>
 </div>
-
+</body>
 ![logos](logos.PNG)
 
 ## Background 
