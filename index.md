@@ -4,27 +4,27 @@ title: Welcome to the hmer package website!
 
 <div class="sidebar">
   <a href="https://hmer-package.github.io/website/">About</a>
-  
+  <br>
     <a href="https://hmer-package.github.io/website/">About</a>
-
+<br>
     <a href="https://hmer-package.github.io/website/">About</a>
-
+<br>
     <a href="https://hmer-package.github.io/website/">About</a>
-
+<br>
     <a href="https://hmer-package.github.io/website/">About</a>
-
+<br>
     <a href="https://hmer-package.github.io/website/">About</a>
-
+<br>
     <a href="https://hmer-package.github.io/website/">About</a>
-  
+  <br>
   <a href="https://hmer-package.github.io/website/">About</a>
-  
+  <br>
   <a href="https://hmer-package.github.io/website/">About</a>
-  
+  <br>
  <a href="https://hmer-package.github.io/website/">About</a>
-  
+  <br>
   <a href="https://hmer-package.github.io/website/">About</a>
-
+<br>
     <a href="https://hmer-package.github.io/website/">About</a>
 
   
