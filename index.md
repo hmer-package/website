@@ -16,7 +16,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #4276b6;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -46,15 +46,9 @@ body {
 </style>
 </head>
 
-<body>
-
 <div class="sidenav">
   <a href="index.html">Home</a>
-  <a href="#services">Services</a>
-  <a href="#clients">Clients</a>
-  <a href="#contact">Contact</a>
 </div>
-</body>
 
 ![logos](logos.PNG)
 
