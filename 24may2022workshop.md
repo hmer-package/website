@@ -1,3 +1,7 @@
+---
+title: Welcome to the hmer package website!
+---
+
 <div class="navbar">
   <a href="index.html">Home</a>
   <a href="learning_resources.html">Learning resources</a>
