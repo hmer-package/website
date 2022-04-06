@@ -2,10 +2,6 @@
 title: Welcome to the hmer package website! 
 ---
 
-<div class="sidenav">
-  <a href="https://hmer-package.github.io/website/">About</a>
-</div>
-
 ![logos](logos.PNG)
 
 ## Background 
