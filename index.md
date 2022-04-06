@@ -4,6 +4,25 @@ title: Welcome to the hmer package website!
 
 <div class="sidebar">
   <a href="https://hmer-package.github.io/website/">About</a>
+    <a href="https://hmer-package.github.io/website/">About</a>
+
+    <a href="https://hmer-package.github.io/website/">About</a>
+
+    <a href="https://hmer-package.github.io/website/">About</a>
+
+    <a href="https://hmer-package.github.io/website/">About</a>
+
+    <a href="https://hmer-package.github.io/website/">About</a>
+
+    <a href="https://hmer-package.github.io/website/">About</a>
+  <a href="https://hmer-package.github.io/website/">About</a>
+  <a href="https://hmer-package.github.io/website/">About</a>
+ <a href="https://hmer-package.github.io/website/">About</a>
+  <a href="https://hmer-package.github.io/website/">About</a>
+
+    <a href="https://hmer-package.github.io/website/">About</a>
+
+  
 </div>
 
 ![logos](logos.PNG)
