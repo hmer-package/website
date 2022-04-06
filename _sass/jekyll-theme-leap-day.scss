@@ -7,25 +7,34 @@ by Matt Graham
 @import "fonts";
 @import "rouge-base16-dark";
 
-.sidebar {
-height: 100%;
-width: 150px;
-position: fixed;
-top: 50;
-left: 0;
-padding-top: 40px;
-background-color: lightblue;
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
-.sidebar div {
-padding: 8px;
-font-size: 24px;
-display: block;
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.body-text {
-margin-left: 150px;
-font-size: 18px;
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 
 body {
