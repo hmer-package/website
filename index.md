@@ -26,15 +26,6 @@ An emulator is a statistical model of the simulator, which can be built using a 
 
 In the _hmer_ package, to train emulators, we forego a full Bayesian approach and instead focus on Bayes linear updates (for details, see e.g. [this book](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470065662)). This has the advantage of being quick to evaluate, and does not require us to supply full probabilistic specifications for all parameters of the emulator.
 
-## [Learn about HME and _hmer_](https://hmer-package.github.io/website/learning_resources)  
-
-
-## [Workshops](https://hmer-package.github.io/website/24may2022workshop) 
-
-
-## [Research papers that performed HME through _hmer_](https://hmer-package.github.io/website/papers)
-
-
 ## Template to set up HME on your model 
 This repository contains an R-script called _Template_hmer_script_ that will guide you through setting up history matching with emulation on your model of interest.
 
@@ -51,3 +42,6 @@ This repository contains an R-script called _Template_hmer_script_ that will gui
 
 The development of the _hmer_ package was supported by the Wellcome Trust. <img src="wellcome_trust.png" width="75">
 
+## hmer mailing list 
+
+To receive future updates on the package and hmer workshops, send an email to danny.scarponi@lshtm.ac.uk with subject "HMER:SUBSCRIBE" and we will add you to our mailing list."
