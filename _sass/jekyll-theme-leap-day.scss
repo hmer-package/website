@@ -467,6 +467,13 @@ footer {
       -ms-text-overflow: ellipsis;
     }
   }
+  
+  .navbar {
+  top: 145px; /* Position the navbar at the top of the page */
+  width: 650px; /* Full width */
+  margin: 0px;
+}
+  
   section {
     margin-top: 5px;
   }
