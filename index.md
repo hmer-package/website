@@ -42,6 +42,6 @@ This repository contains an R-script called _Template_hmer_script_ that will gui
 
 The development of the _hmer_ package was supported by the Wellcome Trust. <img src="wellcome_trust.png" width="75">
 
-## hmer mailing list 
+## Subscribe to our mailing list! 
 
 To receive future updates on the package and hmer workshops, send an email to danny.scarponi@lshtm.ac.uk with subject "HMER:SUBSCRIBE" and we will add you to our mailing list."
