@@ -1,8 +1,13 @@
 ---
-title: Learn about the hmer package!
+title: Welcome to the hmer package website!
 ---
 
-[<- Back to main page](https://hmer-package.github.io/website/)
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="learning_resources.html">Learning resources</a>
+  <a href="24may2022workshop.html">Workshops</a>
+  <a href="papers.html">Research papers</a>
+</div>
 
 In this section you will find several resources to learn about the history matching with emulation framework and how to implement such method through the _hmer_ package.
 
