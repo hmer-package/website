@@ -9,6 +9,10 @@ title: Welcome to the hmer package website!
   <a href="papers.html">Research papers</a>
 </div>
 
+<br>
+
+<br>
+
 ![logos](logos.PNG)
 
 ## Background 
