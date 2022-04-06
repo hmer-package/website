@@ -5,10 +5,11 @@ title: Welcome to the hmer package website!
 <div class="navbar">
   <a href="index.html">Home</a>
   <a href="learning_resources.html">Learning resources</a>
-  <a href="24may2022workshop.md">Workshops</a>
-  <a href="papers.md">Research papers</a>
+  <a href="24may2022workshop.html">Workshops</a>
+  <a href="papers.html">Research papers</a>
 </div>
 
+<div>
 ![logos](logos.PNG)
 
 ## Background 
@@ -47,3 +48,5 @@ This repository contains an R-script called _Template_hmer_script_ that will gui
 - [Richard White](https://www.lshtm.ac.uk/aboutus/people/white.richard)
 
 The development of the _hmer_ package was supported by the Wellcome Trust. <img src="wellcome_trust.png" width="75">
+
+</div>
