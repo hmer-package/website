@@ -8,10 +8,6 @@ title: Welcome to the hmer package website!
   <a href="#contact">Contact</a>
 </div>
 
-<div class="main">
-  <p>Some text some text some text some text..</p>
-</div>
-
 ![logos](logos.PNG)
 
 ## Background 
