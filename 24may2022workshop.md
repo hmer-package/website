@@ -23,7 +23,7 @@ Participants will familiarise themselves with the history matching and emulation
 
 The workshop will be suitable for anyone with a basic knowledge of mathematical modelling and R.
 
-To participate in this workshop, please [**register here**](https://www.eventbrite.co.uk/e/workshop-an-introduction-to-the-r-package-hmer-registration-314475212827)
+To participate in this workshop, please **[register here](https://www.eventbrite.co.uk/e/workshop-an-introduction-to-the-r-package-hmer-registration-314475212827)***
 
 ### Programme (times tbc) 
 
