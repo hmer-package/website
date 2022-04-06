@@ -5,7 +5,7 @@ title: Welcome to the hmer package website!
 <div class="navbar">
   <a href="index.html">Home</a>
   <a href="learning_resources.html">Learning resources</a>
-  <a href="24may2022workshop.html">Workshops</a>
+  <a href="24may2022workshop.html" class="active">Workshops</a>
   <a href="papers.html">Research papers</a>
 </div>
 
