@@ -35,11 +35,6 @@ title: Welcome to the hmer package website!
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 </style>
 </head>
 
