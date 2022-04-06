@@ -294,6 +294,11 @@ header {
   margin: -31px;
 }
 
+.navbar a:active {
+  background: #ffcc00;
+  color: black;
+}
+
 /* Links inside the navbar */
 .navbar a {
   float: left;
@@ -310,10 +315,6 @@ header {
   color: black;
 }
 
-.navbar a:active {
-  background: #ffcc00;
-  color: black;
-}
 
 /* Main content */
 .main {
