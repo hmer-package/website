@@ -1,8 +1,13 @@
 ---
-title: Research papers that performed HME through hmer
+title: Welcome to the hmer package website!
 ---
 
-[<- back to main page](https://hmer-package.github.io/website/)
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="learning_resources.html">Learning resources</a>
+  <a href="24may2022workshop.html">Workshops</a>
+  <a href="papers.html">Research papers</a>
+</div>
 
 ### Previous work by our group on calibrating infectious disease models using HME, that led to the development of this package:
 
