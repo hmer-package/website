@@ -45,6 +45,7 @@ body {
 }
 </style>
 </head>
+
 <body>
 
 <div class="sidenav">
@@ -53,6 +54,7 @@ body {
   <a href="#clients">Clients</a>
   <a href="#contact">Contact</a>
 </div>
+</body>
 
 ![logos](logos.PNG)
 
