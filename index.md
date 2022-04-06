@@ -40,7 +40,7 @@ title: Welcome to the hmer package website!
 
 <body>
 <div class="sidenav">
-  <a href="index.html">Home</a>
+  <a href="https://hmer-package.github.io/website">Home</a>
 </div>
 </body>
 ![logos](logos.PNG)
