@@ -11,6 +11,8 @@ title: Welcome to the hmer package website!
 
 <br>
 
+<br>
+
 In this section you will find several resources to learn about the history matching with emulation framework and how to implement such method through the _hmer_ package.
 
 ## Resources on HME 
