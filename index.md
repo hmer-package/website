@@ -36,13 +36,12 @@ title: Welcome to the hmer package website!
   padding: 0px 10px;
 }
 </style>
-</head>
-
-<body>
+  
 <div class="sidenav">
   <a href="https://hmer-package.github.io/website">Home</a>
 </div>
-</body>
+</head>
+
 ![logos](logos.PNG)
 
 ## Background 
