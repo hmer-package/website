@@ -1,8 +1,9 @@
----
-title: hmer workshops
----
-
-[<- Back to main page](https://hmer-package.github.io/website/)
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="learning_resources.html">Learning resources</a>
+  <a href="24may2022workshop.html">Workshops</a>
+  <a href="papers.html">Research papers</a>
+</div>
 
 ### 24 May 2022 - An introduction to the R-package _hmer_
 
