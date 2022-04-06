@@ -5,7 +5,9 @@
   <a href="papers.html">Research papers</a>
 </div>
 
-### 24 May 2022 - An introduction to the R-package _hmer_
+<br> 
+
+## 24 May 2022 - An introduction to the R-package _hmer_
 
 This **day-long**, **in-person workshop** will take place on **May 24th 2022** at the [London School of Hygiene and Tropical Medicine](https://www.lshtm.ac.uk/aboutus/contact/location) (WC1E 7HT, Keppel Street Building, room LG07). 
 
