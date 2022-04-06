@@ -3,9 +3,7 @@ title: Welcome to the hmer package website!
 ---
 
 <div class="sidebar">
-<div>Menu Item 1</div>
-<div>Menu Item 2</div>
-<div>Menu Item 3</div>
+  <a href="https://hmer-package.github.io/website/">About</a>
 </div>
 
 ![logos](logos.PNG)
