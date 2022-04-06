@@ -3,10 +3,7 @@ title: Welcome to the hmer package website!
 ---
 
 <div class="sidenav">
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <a href="https://hmer-package.github.io/website/">About</a>
 </div>
 
 ![logos](logos.PNG)
