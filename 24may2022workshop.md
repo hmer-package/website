@@ -11,7 +11,11 @@ title: Welcome to the hmer package website!
 
 <br>
 
-![logos](logos.PNG)
+<br>
+
+<br>
+
+<br>
 
 ## 24 May 2022 Workshop - An introduction to the R-package _hmer_
 
