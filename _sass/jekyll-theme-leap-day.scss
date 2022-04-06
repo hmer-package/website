@@ -454,7 +454,7 @@ footer {
 }
 
   header{
-    position: relative;
+    position: fixed;
     padding: 5px 0px;
     min-height: 0px;
 
@@ -471,7 +471,7 @@ footer {
     margin-top: 5px;
   }
 
-  /* #banner { display: none;} */
+   #banner { display: none;} 
 
   header ul {
     display:none;
