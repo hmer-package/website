@@ -2,20 +2,9 @@
 title: Welcome to the hmer package website!
 ---
 
-<div class="navbar">
-  <a href="index.html">Home</a>
-  <a href="learning_resources.html" class="active">Learning resources</a>
-  <a href="24may2022workshop.html">Workshops</a>
-  <a href="papers.html">Research papers</a>
-</div>
-
 <br>
 
 <br>
-
-<br>
-
-![logos](logos.PNG)
 
 In this section you will find several resources to learn about the history matching with emulation framework and how to implement such method through the _hmer_ package.
 
