@@ -3,9 +3,10 @@ title: Welcome to the hmer package website!
 ---
 
 <div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
+  <a href="index.html">Home</a>
+  <a href="learning_resources.html">Learning resources</a>
+  <a href="24may2022workshop.md">Workshops</a>
+  <a href="papers.md">Research papers</a>
 </div>
 
 ![logos](logos.PNG)
