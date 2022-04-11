@@ -42,3 +42,7 @@ Once you have familiarised youself with the calibration of deterministic models,
 
 - Stochastic practical tutorial (link to be added)
 
+## Template to set up HME on your model 
+This repository contains an R-script called _Template_hmer_script_ that will guide you through setting up history matching with emulation on your model of interest.
+
+
