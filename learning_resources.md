@@ -15,7 +15,7 @@ title: Welcome to the hmer package website!
 
 <br>
 
-In this section you will find several resources to learn about the history matching with emulation framework and how to implement such method through the _hmer_ package.
+In this section you will find some resources on the history matching with emulation framework, and how to implement the method using the hmer package.
 
 ## Resources on HME 
 
@@ -30,7 +30,7 @@ transmission by using variance emulation](https://researchonline.lshtm.ac.uk/id/
 
 ## Resources on _hmer_ 
 
-The first resource to learn about _hmer_ is the case study below, which demonstrates the use of _hmer_ for the calibration of a deterministic SEIRS model. 
+The first resource to learn about _hmer_ is the tutorial below
 
 - [Deterministic tutorial](https://danny-sc.github.io/Tutorial_2/)
 
