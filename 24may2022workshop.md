@@ -19,7 +19,9 @@ title: Welcome to the hmer package website!
 
 This **day-long**, **in-person workshop** will take place on **May 24th 2022** at the [London School of Hygiene and Tropical Medicine](https://www.lshtm.ac.uk/aboutus/contact/location) (WC1E 7HT, Keppel Street Building, room LG07). 
 
-Participants will familiarise themselves with the history matching and emulation framework and will learn how to implement such technique to calibrate deterministic and stochastic models using _hmer_. The workshop will be run by a combination of members of the  Centre for Mathematical Modelling of Infectious Diseases  at the London School of Hygiene and Tropical Medicine, and external speakers from Durham University and the University of Exeter. It will consist of hands-on, practical tutorials, interspersed with short presentations.
+Participants will be introduced to the history matching and emulation framework, and will learn how to implement the technique to calibrate models using hmer. In this workshop, we will focus on calibrating deterministic models and the mean of stochastic model runs. We will also briefly discuss using hmer to calibrate the variance of individual stochastic model runs, which will be explored in more detail in a future workshop.
+
+The workshop will be run by a combination of members of the  Centre for Mathematical Modelling of Infectious Diseases  at the London School of Hygiene and Tropical Medicine, and external speakers from Durham University and the University of Exeter. It will consist of hands-on, practical tutorials, interspersed with short presentations.
 
 The workshop will be suitable for anyone with a basic knowledge of mathematical modelling and R.
 
