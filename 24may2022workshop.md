@@ -25,7 +25,7 @@ The workshop will be run by a combination of members of the  Centre for Mathemat
 
 The workshop will be suitable for anyone with a basic knowledge of mathematical modelling and R.
 
-To participate in this workshop, please [register here](https://www.eventbrite.co.uk/e/workshop-an-introduction-to-the-r-package-hmer-registration-314475212827).
+To participate in this workshop, please [register here](https://www.eventbrite.co.uk/e/an-introduction-to-the-r-package-hmer-workshop-tickets-320558698697).
 
 ### Programme (times tbc) 
 
