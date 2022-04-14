@@ -41,4 +41,4 @@ The development of the _hmer_ package was supported by the Wellcome Trust. <img 
 
 ## Subscribe to our mailing list! 
 
-To receive future updates on the package and hmer workshops, send an email to danny.scarponi@lshtm.ac.uk with subject "HMER:SUBSCRIBE" and we will add you to our mailing list.
+To receive future updates on the package and hmer workshops, please go to [here](https://lists.lshtm.ac.uk/sympa/info/hmer_mailing_list) and click on the "Subscribe" button on the left panel. You will be asked to insert your email address.
