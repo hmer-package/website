@@ -41,8 +41,8 @@ The development of the _hmer_ package was supported by the Wellcome Trust. <img 
 
 ## Subscribe to our mailing list! 
 
-To receive future updates on the package and hmer workshops, please go [here](https://lists.lshtm.ac.uk/sympa/info/hmer_mailing_list) and click on the "Subscribe" button on the left panel. You will be asked to insert your email address. 
+To subscribe to our mailing list, please go [here](https://lists.lshtm.ac.uk/sympa/info/hmer_mailing_list) and click on the "Subscribe" button on the left panel. You will be asked to insert your email address. 
 
-As a member, you will receive the latest updates about the hmer package, including: new features, workshops and events on the use of the package.
+As a subscriber, you will receive updates on package new features and on hmer workshops.
 
 You can unsubscribe from the hmer mailing list at any time. For information on how we use your data, please see our [privacy notice](https://www.lshtm.ac.uk/sites/default/files/Mailing-List-Privacy-Notice.pdf) for mailing list recipients and our [Data Protection](https://www.lshtm.ac.uk/aboutus/organisation/data-protection) pages.
