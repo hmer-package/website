@@ -27,9 +27,9 @@ The workshop will be suitable for anyone with a basic knowledge of mathematical 
 
 ### Material
 
-- [Deterministic practical tutorial](https://danny-sc.github.io/determ_workshop/d)
-- [R script without solutions](https://github.com/hmer-package/website/blob/gh-pages/determ_workshop_code_without_sols.Rd)
-- [R script with solutions](https://github.com/hmer-package/website/blob/gh-pages/determ_workshop_code_with_sols.Rd)
+- [Deterministic practical tutorial](https://danny-sc.github.io/deterministic_workshop/d)
+- [R script without solutions](https://github.com/hmer-package/website/blob/gh-pages/deterministic_workshop_code_without_sols.Rd)
+- [R script with solutions](https://github.com/hmer-package/website/blob/gh-pages/deterministic_workshop_code_with_sols.Rd)
 
 
 ### Programme (times tbc) 
