@@ -25,7 +25,12 @@ The workshop will be run by a combination of members of the  Centre for Mathemat
 
 The workshop will be suitable for anyone with a basic knowledge of mathematical modelling and R.
 
-To participate in this workshop, please [register here](https://www.eventbrite.co.uk/e/an-introduction-to-the-r-package-hmer-workshop-tickets-320558698697).
+### Material
+
+- [Deterministic practical tutorial](https://danny-sc.github.io/determ_workshop/)
+- [R script without solutions](https://github.com/hmer-package/website/blob/gh-pages/determ_workshop_code_without_sols.R)
+- [R script with solutions](https://github.com/hmer-package/website/blob/gh-pages/determ_workshop_code_with_sols.R)
+
 
 ### Programme (times tbc) 
 
