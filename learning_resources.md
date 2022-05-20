@@ -36,7 +36,7 @@ The first resource to learn about _hmer_ is the tutorial below
 
 We also created a practical tutorial that offers a more interactive introduction to _hmer_. This is also based on a deterministic SEIRS model, but it is more interactive and requires you to complete tasks writing code in R.
 
-- [Deterministic practical tutorial](https://danny-sc.github.io/deterministic_workshop/d)
+- Deterministic practical tutorial (link to be added)
 
 Once you have familiarised youself with the calibration of deterministic models, you can work through the stochastic practical tutorial below:
 
