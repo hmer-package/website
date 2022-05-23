@@ -42,6 +42,6 @@ The workshop will be suitable for anyone with a basic knowledge of mathematical 
 | 14:30 | Coffee and tea break                                                                                         |
 | 15:00 | Guided R-practical on the calibration of deterministic models (part 2)                                       |                                             
 | 16:30 | Brief discussion on the calibration of stochastic models                                                     |
-| 17:00 | Final discussion - feedback from partipants                                                                  |
+| 17:00 | Final discussion - feedback from participants                                                                  |
 | 17:15 | Closure                                                                                                      |
 
