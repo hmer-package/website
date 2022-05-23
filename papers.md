@@ -22,3 +22,8 @@ title: Welcome to the hmer package website!
 - [Approximate Bayesian Computation and Simulation-Based Inference for Complex Stochastic Epidemic Models](https://projecteuclid.org/journals/statistical-science/volume-33/issue-1/Approximate-Bayesian-Computation-and-Simulation-Based-Inference-for-Complex-Stochastic/10.1214/17-STS618.full)
 - [Efficient History Matching of a High Dimensional Individual-Based HIV Transmission Model](https://epubs.siam.org/doi/abs/10.1137/16M1093008)
 - [Universal test, treat, and keep: improving ART retention is key in cost-effective HIV control in Uganda](https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-017-2420-y)
+
+## Research papers that used hmer as a calibration tool
+
+- [Demonstrating multi-country calibration of a tuberculosis model using new history matching and emulation package - hmer](https://www.medrxiv.org/content/10.1101/2022.05.13.22275052v1)
+
