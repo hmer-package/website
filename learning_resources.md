@@ -25,7 +25,7 @@ The resources below can be addressed in any order:
 
 ## Resources on _hmer_ 
 
-The resources below are meant to be addressed in the proposed ordered:
+In addition to the package reference manual and the package vignettes (which can be found [here](https://cran.r-project.org/web/packages/hmer/index.html)), we created the following tutorials, meant to be addressed in the proposed ordered:
 
 1. [Deterministic tutorial](https://danny-sc.github.io/Tutorial_2/): a general introduction to _hmer_'s functionalities for the calibration of deterministic models.
 
