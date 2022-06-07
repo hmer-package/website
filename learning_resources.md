@@ -27,7 +27,7 @@ The resources below can be addressed in any order:
 
 ## Resources on _hmer_ 
 
-The resources below are thought to be addressed in the suggested ordered:
+The resources below are better understood if would addressed in the proposed ordered:
 
 1. [Deterministic tutorial](https://danny-sc.github.io/Tutorial_2/): a general introduction to _hmer_'s functionalities for the calibration of deterministic models.
 
