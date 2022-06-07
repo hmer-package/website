@@ -19,33 +19,24 @@ In this section you will find some resources on the history matching with emulat
 
 ## Resources on HME 
 
-1. [Brief introduction to HME](https://danny-sc.github.io/Tutorial_1/): a brief introduction to the method, using a simple one-dimensional example.
+The resources below can be addressed in any order:
 
-2. [Ian Vernon's presentation on HME](https://www.youtube.com/watch?v=54G_aYHGdAk): a presentation on the history matching with emulation methodology by Ian Vernon.
+- [Brief introduction to HME](https://danny-sc.github.io/Tutorial_1/): a brief introduction to the method, using a simple one-dimensional example.
+
+- [Ian Vernon's presentation on HME](https://www.youtube.com/watch?v=54G_aYHGdAk): a presentation on the history matching with emulation methodology by Ian Vernon.
 
 ## Resources on _hmer_ 
 
-The first resource to learn about _hmer_ is the tutorial below
+The resources below are thought to be addressed in the suggested ordered:
 
-1. [Deterministic tutorial](https://danny-sc.github.io/Tutorial_2/)
+1. [Deterministic tutorial](https://danny-sc.github.io/Tutorial_2/): a general introduction to _hmer_'s functionalities for the calibration of deterministic models.
 
-We also created a practical tutorial that offers a more interactive introduction to _hmer_. This is also based on a deterministic SEIRS model, but it is more interactive and requires you to complete tasks writing code in R.
+2. [Deterministic practical tutorial](https://danny-sc.github.io/determ_workshop/): a practical, interactive introduction to _hmer_'s functionalities for the calibration of deterministic models. You can work through this practical tutorial by running the R-script [R script without solutions](https://github.com/hmer-package/website/blob/gh-pages/determ_workshop_code_without_sols.R) line by line. Note that the tutorial has tasks that require you to write your own code. Solutions to these tasks can be found both in the html file and in the R-script [R script with solutions](https://github.com/hmer-package/website/blob/gh-pages/determ_workshop_code_with_sols.R).
 
-- [Deterministic practical tutorial](https://danny-sc.github.io/determ_workshop/)
-
-Once you have familiarised youself with the calibration of deterministic models, you can work through the stochastic practical tutorial below:
-
-- Stochastic practical tutorial (link to be added)
+3. Stochastic practical tutorial: a practical introduction to _hmer_'s functionalities for the calibration of models presenting stochasticity and/or bimodality.
 
 ## Template to set up HME on your model 
-This repository contains an R-script called _Template_hmer_script_ that will guide you through setting up history matching with emulation on your model of interest.
-
-### Material
-
-The material used in the workshop 
-- [Deterministic practical tutorial](https://danny-sc.github.io/determ_workshop/)
-- [R script without solutions](https://github.com/hmer-package/website/blob/gh-pages/determ_workshop_code_without_sols.R)
-- [R script with solutions](https://github.com/hmer-package/website/blob/gh-pages/determ_workshop_code_with_sols.R)
+This repository contains an R-script called [Template_hmer_script](https://raw.githubusercontent.com/hmer-package/website/gh-pages/Template_hmer_script.R) that will guide you through setting up history matching with emulation on your model of interest.
 
 ## References
 
