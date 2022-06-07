@@ -34,7 +34,7 @@ The resources below are meant to be addressed in the proposed ordered:
 3. Stochastic practical tutorial: a practical introduction to _hmer_'s functionalities for the calibration of models presenting stochasticity and/or bimodality.
 
 ## Template to set up HME on your model 
-This repository contains an R-script called [Template_hmer_script](https://raw.githubusercontent.com/hmer-package/website/gh-pages/Template_hmer_script.R) that will guide you through setting up history matching with emulation on your model of interest.
+This repository contains an R-script [Template_hmer_script](https://raw.githubusercontent.com/hmer-package/website/gh-pages/Template_hmer_script.R) that will guide you through setting up history matching with emulation on your model of interest.
 
 ## References
 
