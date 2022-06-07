@@ -21,7 +21,7 @@ In this section you will find some resources on the history matching with emulat
 
 The resources below can be addressed in any order:
 
-- [Brief introduction to HME](https://danny-sc.github.io/Tutorial_1/): a brief introduction to the method, using a simple one-dimensional example.
+- [A brief introduction to HME](https://danny-sc.github.io/Tutorial_1/): a brief introduction to the HME method, using a simple one-dimensional example.
 
 - [Ian Vernon's presentation on HME](https://www.youtube.com/watch?v=54G_aYHGdAk): a presentation on the history matching with emulation methodology by Ian Vernon.
 
