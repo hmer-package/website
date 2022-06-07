@@ -20,7 +20,10 @@ In this section you will find some resources on the history matching with emulat
 ## Resources on HME 
 
 To start familiarising yourself with history matching with emulation, we created a brief introduction to the method, using a simple one-dimensional example:
-- [Introduction to HME](https://danny-sc.github.io/Tutorial_1/)
+- [Brief introduction to HME](https://danny-sc.github.io/Tutorial_1/)
+
+The following video contains an introduction to the history matching with emulation methodology by Ian Vernon:
+- [Ian Vernon's presentation on HME](https://www.youtube.com/watch?v=54G_aYHGdAk)
 
 You can also take a look at the following epidemiological papers, where history matching with emulation was used for the calibration of HIV models:
 - [Bayesian History Matching of Complex Infectious Disease Models Using Emulation: A Tutorial and a Case Study on HIV in Uganda](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003968)
