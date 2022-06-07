@@ -36,7 +36,7 @@ The resources below are meant to be addressed in the proposed ordered:
 ## Template to set up HME on your model 
 This repository contains an R-script [Template_hmer_script](https://raw.githubusercontent.com/hmer-package/website/gh-pages/Template_hmer_script.R) that will guide you through setting up history matching with emulation on your model of interest.
 
-## References
+## Additional references
 
 You can also take a look at the following epidemiological papers, where history matching with emulation was used for the calibration of HIV models:
 - [Bayesian History Matching of Complex Infectious Disease Models Using Emulation: A Tutorial and a Case Study on HIV in Uganda](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003968)
