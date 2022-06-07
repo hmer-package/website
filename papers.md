@@ -26,4 +26,5 @@ title: Welcome to the hmer package website!
 ## Research papers that used hmer as a calibration tool
 
 - [Demonstrating multi-country calibration of a tuberculosis model using new history matching and emulation package - hmer](https://www.medrxiv.org/content/10.1101/2022.05.13.22275052v2)
+- [The impact of alternative delivery strategies for novel tuberculosis vaccines in low- and middle-income countries: a modelling study](https://www.medrxiv.org/content/10.1101/2022.04.16.22273762v1)
 
