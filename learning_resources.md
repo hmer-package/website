@@ -15,15 +15,15 @@ title: Welcome to the hmer package website!
 
 <br>
 
-In this section you will find some resources on the history matching with emulation framework, and how to implement the method using the hmer package.
+In this section you will find some resources on the history matching with emulation (HME) framework, and how to implement the method using the hmer package.
 
 ## Resources on HME 
 
 The resources below can be addressed in any order:
 
-- [A brief introduction to HME](https://danny-sc.github.io/Tutorial_1/): a brief introduction to the HME method, using a simple one-dimensional example.
+- [An introduction to HME](https://danny-sc.github.io/Tutorial_1/): a short tutorial which demonstrates the main concepts of HME using a simple one-dimensional example.
 
-- [Ian Vernon's presentation on HME](https://www.youtube.com/watch?v=54G_aYHGdAk): a presentation on the history matching with emulation methodology by Ian Vernon.
+- [Bayes Linear Emulation and History Matching](https://www.youtube.com/watch?v=54G_aYHGdAk): a presentation on the HME methodology by Ian Vernon.
 
 ## Resources on _hmer_ 
 
