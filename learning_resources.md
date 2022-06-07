@@ -38,7 +38,7 @@ This repository contains an R-script [Template_hmer_script](https://raw.githubus
 
 ## Additional references
 
-You can also take a look at the following epidemiological papers, where history matching with emulation was used for the calibration of HIV models:
+You can take a look at the following epidemiological papers, where HME was used for the calibration of HIV models:
 - [Bayesian History Matching of Complex Infectious Disease Models Using Emulation: A Tutorial and a Case Study on HIV in Uganda](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003968)
 - [History matching of a complex epidemiological
 model of human immunodeficiency virus
