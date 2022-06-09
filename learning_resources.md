@@ -17,7 +17,7 @@ In this section you will find some resources on the history matching with emulat
 
 ## Resources on HME 
 
-The resources below can be addressed in any order:
+The resources below can be addressed independently of each other:
 
 - [An introduction to HME](https://danny-sc.github.io/Tutorial_1/): a short tutorial which demonstrates the main concepts of HME using a simple one-dimensional example.
 
