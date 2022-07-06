@@ -32,7 +32,7 @@ The _hmer_ package is available on CRAN, together with
 - an [introductory vignette](https://cran.r-project.org/web/packages/hmer/vignettes/demonstrating-the-hmer-package.html) on the main functionality of the package;
 - a [vignette](https://cran.r-project.org/web/packages/hmer/vignettes/low-dimensional-examples.html) showing how to use the package with one and two-dimensional models;
 - a [vignette](https://cran.r-project.org/web/packages/hmer/vignettes/stochasticandbimodalemulation.html) on the calibration of stochastic and bimodal models;
-- a [history matching with emulation handbook], which presents some of the issues that arise most frequently in emulation and history matching and explains how to circumvent them.
+- a [history matching with emulation handbook](https://cran.r-project.org/web/packages/hmer/vignettes/emulationhandbook.html), which presents some of the issues that arise most frequently in emulation and history matching and explains how to circumvent them.
 
 In addition to those resources, we created the following tutorials, meant to be addressed in the proposed ordered:
 
