@@ -15,11 +15,41 @@ title: Welcome to the hmer package website!
 
 <br>
 
+## 17-18 November 2022 Workshop - Calibrating deterministic and stochastic models using the hmer package
+
+This **two-day**, **online workshop** will take place on **17-18 November 2022**. 
+
+In this two-day online workshop, we will introduce you to the history matching and emulation framework, and guide you through using the technique to calibrate both deterministic and stochastic models (including models with bimodal behaviour) using hmer. The first day of the workshop will deal with the calibration of deterministic models and will therefore be very similar to the workshop “An Introduction to History Matching with Emulation using the R-package hmer” held 24 May 2022. If you took part in that, you can join this workshop directly on the second day, when stochastic models will be analysed.
+
+The workshop will be run by a combination of members of the  Centre for Mathematical Modelling of Infectious Diseases  at the London School of Hygiene and Tropical Medicine, and external speakers from Durham University and the University of Exeter. It will consist of hands-on, practical tutorials, interspersed with short presentations.
+
+### Programme 
+
+First day
+| Time  |                                                                                                              |
+|-------|--------------------------------------------------------------------------------------------------------------|
+| 13:00 | Welcome                                      |
+| 13:15 | Introduction to History Matching with Emulation                                       |
+| 14:15 | Guided R-practical on the calibration of deterministic models (part 1)              |
+| 15:45 | Break              |
+| 16:00 | Guided R-practical on the calibration of deterministic models (part 2)                                       |                                      
+| 17:30 | End                                                                                                     |
+
+Second day
+| Time  |                                                                                                              |
+|-------|--------------------------------------------------------------------------------------------------------------|
+| 13:00 | Welcome                                      |
+| 13:15 | History Matching with Emulation and stochastic models                                      |
+| 14:15 | Guided R-practical on the calibration of stochastic and bimodal models (part 1)              |
+| 15:45 | Break              |
+| 16:00 | Guided R-practical on the calibration of  stochastic and bimodal models (part 2)|
+| 17:30 | End   |                                                                                               
+
 ## 24 May 2022 Workshop - An introduction to the R-package _hmer_
 
 This **day-long**, **in-person workshop** took place on **May 24th 2022** at the [London School of Hygiene and Tropical Medicine](https://www.lshtm.ac.uk/aboutus/contact/location) (WC1E 7HT, Keppel Street Building, room LG07). 
 
-Participants were introduced to the history matching and emulation framework, and learnt how to implement the technique to calibrate models using hmer. In the workshop, we focused on calibrating deterministic models and the mean of stochastic model runs. We also briefly discussed using hmer to calibrate the variance of individual stochastic model runs, which will be explored in more detail in a future workshop.
+Participants were introduced to the history matching and emulation framework, and learnt how to implement the technique to calibrate models using hmer. In the workshop, we focused on calibrating deterministic models and briefly discussed calibrating to the mean of stochastic model runs.
 
 The workshop was run by a combination of members of the  Centre for Mathematical Modelling of Infectious Diseases  at the London School of Hygiene and Tropical Medicine, and external speakers from Durham University and the University of Exeter. It consisted of hands-on, practical tutorials, interspersed with short presentations.
 
