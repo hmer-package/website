@@ -13,9 +13,7 @@ title: Welcome to the hmer package website!
 
 <br>
 
-## 17-18 November 2022 Workshop - Calibrating deterministic and stochastic models using the hmer package
-
-This **two-day**, **online workshop** will take place on **17-18 November 2022**. 
+## 17-18 November 2022 Online Workshop - Calibrating deterministic and stochastic models using the hmer package
 
 In this two-day online workshop, we will introduce you to the history matching and emulation framework, and guide you through using the technique to calibrate both deterministic and stochastic models (including models with bimodal behaviour) using hmer. The first day of the workshop will deal with the calibration of deterministic models and will therefore be very similar to the workshop “An Introduction to History Matching with Emulation using the R-package hmer” held 24 May 2022. If you took part in that, you can join this workshop directly on the second day, when stochastic models will be analysed.
 
