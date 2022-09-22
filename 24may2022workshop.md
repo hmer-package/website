@@ -13,7 +13,6 @@ title: Welcome to the hmer package website!
 
 <br>
 
-<br>
 ## 17-18 November 2022 Workshop - Calibrating deterministic and stochastic models using the hmer package
 
 This **two-day**, **online workshop** will take place on **17-18 November 2022**. 
