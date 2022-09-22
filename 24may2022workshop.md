@@ -31,8 +31,6 @@ The workshop will be run by a combination of members of the  Centre for Mathemat
 | 16:00 | Guided R-practical on the calibration of deterministic models (part 2)                                       |                                      
 | 17:30 | End                                                                                                     |
 
-Second day
-
 | 2nd day  |                                                                                                              |
 |-------|--------------------------------------------------------------------------------------------------------------|
 | 13:00 | Welcome                                      |
