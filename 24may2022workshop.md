@@ -14,7 +14,6 @@ title: Welcome to the hmer package website!
 <br>
 
 <br>
-
 ## 17-18 November 2022 Workshop - Calibrating deterministic and stochastic models using the hmer package
 
 This **two-day**, **online workshop** will take place on **17-18 November 2022**. 
@@ -23,11 +22,10 @@ In this two-day online workshop, we will introduce you to the history matching a
 
 The workshop will be run by a combination of members of the  Centre for Mathematical Modelling of Infectious Diseases  at the London School of Hygiene and Tropical Medicine, and external speakers from Durham University and the University of Exeter. It will consist of hands-on, practical tutorials, interspersed with short presentations.
 
-### Programme 
+### Programme (all times are in GMT)
 
-First day
 
-| Time  |                                                                                                              |
+| 1st day  |                                                                                                              |
 |-------|--------------------------------------------------------------------------------------------------------------|
 | 13:00 | Welcome                                      |
 | 13:15 | Introduction to History Matching with Emulation                                       |
@@ -38,7 +36,7 @@ First day
 
 Second day
 
-| Time  |                                                                                                              |
+| 2nd day  |                                                                                                              |
 |-------|--------------------------------------------------------------------------------------------------------------|
 | 13:00 | Welcome                                      |
 | 13:15 | History Matching with Emulation and stochastic models                                      |
