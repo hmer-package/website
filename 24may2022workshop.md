@@ -11,11 +11,9 @@ title: Welcome to the hmer package website!
 
 <br>
 
-<br>
-
 ## 8-9 December 2022 Online Workshop - Calibrating deterministic and stochastic models using the hmer package
 
-Due to the high number of registrations for the workshop on 17-18 November, this will be a repeat of the workshop for interested participants would could not sign up for the earlier workshop. The material covered and the programme will be the same in both workshops.
+Due to the high number of registrations for the workshop on 17-18 November (see below), this will be a repeat of the workshop for interested participants who could not sign up for the earlier workshop. The material covered and the programme will be the same in both workshops.
 
 Click [here](https://www.eventbrite.com/e/calibrating-deterministic-and-stochastic-models-using-the-hmer-package-tickets-430882460037) to register for the 8-9 December workshop. 
 
