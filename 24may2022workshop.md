@@ -13,7 +13,7 @@ title: Welcome to the hmer package website!
 
 ## New workshop coming soon!
 
-We will be holding an online workshop on the calibration of deterministic and stochastic models before the summer. The exact dates will be announced here. Meanwhile, please sign up to our mailing list if you are interested in being notified.
+We will be holding an online workshop on the calibration of deterministic and stochastic models before the summer. The exact dates will be announced here. Meanwhile, please sign up to our [mailing list](https://hmer-package.github.io/website/index.html) if you are interested in being notified.
 
 ## 8-9 December 2022 Online Workshop - Calibrating deterministic and stochastic models using the hmer package
 
