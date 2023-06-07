@@ -319,7 +319,7 @@ output_names <- c("I25", "I40", "I100", "I200", "R25", "R40", "R100", "R200")
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Train stochastic emulators using `variance_emulator_from_data`
-stoch_emulators <- variance_emulator_from_data(all_training, output_names, ranges)
+stoch_emulators <- emulator_from_data(all_training, output_names, ranges, emulator_type = 'variance')
 
 # Check what variables are active for the variance and for the mean emulators
 plot_actives(stoch_emulators$variance)
@@ -367,8 +367,8 @@ vd <- validation_diagnostics(stoch_emulators$expectation, targets, all_valid, pl
 ############################################  8. PROPOSING NEW POINTS  ########################################
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-# Generate 150 new points using `generate_new_runs`
-new_points <- generate_new_runs(stoch_emulators, 150, targets)
+# Generate 150 new points using `generate_new_design`
+new_points <- generate_new_design(stoch_emulators, 150, targets)
 
 # Plot `new_points` using `plot_wrap` 
 plot_wrap(new_points, ranges)
@@ -400,15 +400,15 @@ new_all_valid <- wave1[5001:7500,]
 
 
 # Train new stochastic emulators using `variance_emulators_from_data`
-new_stoch_emulators <- variance_emulator_from_data(new_all_training, output_names, ranges, 
-                                                   check.ranges=TRUE)
+new_stoch_emulators <- emulator_from_data(new_all_training, output_names, ranges, 
+                                          emulator_type = 'variance', check.ranges=TRUE)
 
 # Produce three diagnostics of the new emulators using `validation_diagnostics`
 vd <- validation_diagnostics(new_stoch_emulators, targets, new_all_valid, plt=TRUE, row=2)
 
 
 # Generate new parameter sets, non-implausible for both `new_stoch_emulators` and `stoch_emulators`
-new_new_points <- generate_new_runs(c(new_stoch_emulators, stoch_emulators), 150, targets)
+new_new_points <- generate_new_design(c(new_stoch_emulators, stoch_emulators), 150, targets)
 
 
 # Run the model on the parameter sets in `new_new_points`
@@ -539,8 +539,8 @@ bimodal_output_names <- c("I25", "I40", "I100", "I200", "I250", "I400", "I500",
                           "R25", "R40", "R100", "R200", "R250", "R400", "R500")
 
 # Train bimodal emulators using `bimodal_emulator_from_data`
-bimodal_emulators <- bimodal_emulator_from_data(bimodal_all_training,
-                                                bimodal_output_names, ranges)
+bimodal_emulators <- emulator_from_data(bimodal_all_training,
+                                        bimodal_output_names, ranges, emulator_type = 'multistate')
 
 # Plot the mean emulator for mode 1 for R400 in the (alpha,epsilon)-plane with the un-shown 
 # parameters as in `chosen_params`
@@ -585,5 +585,5 @@ bimodal_emulators$mode1$expectation$I500 <- bimodal_emulators$mode1$expectation$
 bimodal_emulators$mode2$expectation$I500 <- bimodal_emulators$mode2$expectation$I500$mult_sigma(2)
 
 
-# Generate new points using `generate_new_runs`
-new_points <- generate_new_runs(bimodal_emulators, 150, bimodal_targets, nth=1)
+# Generate new points using `generate_new_design`
+new_points <- generate_new_design(bimodal_emulators, 150, bimodal_targets, nth=1)
