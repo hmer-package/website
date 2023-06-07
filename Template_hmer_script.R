@@ -1,7 +1,8 @@
 require(hmer)
+require(lhs)
 
-# This R-script is a template for you to perform history matching with emulation. Note that while some sections contain 
-# code that is ready to be run, in other sections you will have to adapt the code yo your own model.
+# This R-script is a template for you to perform history matching with emulation on a deterministic model. Note that while 
+# some sections contain code that is ready to be run, in other sections you will have to adapt the code to your own model.
 
 
 #############################################################################################################################
@@ -101,7 +102,7 @@ vd <- validation_diagnostics(ems[[1]], validation = validation, targets = target
 # the correct sublist of emulators. We suggest generating 20 points for each input parameter varied, however this can be 
 # changed to create fewer or more points.
 
-non_imp_pts[[1]] <- generate_new_runs(ems[[1]],  20 * length(ranges[[1]]), targets, verbose=TRUE)
+non_imp_pts[[1]] <- generate_new_design(ems[[1]],  20 * length(ranges[[1]]), targets, verbose=TRUE)
 
 
 
