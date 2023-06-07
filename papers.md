@@ -15,8 +15,10 @@ title: Welcome to the hmer package website!
 
 ## Research papers that used hmer as a calibration tool
 
-- [Demonstrating multi-country calibration of a tuberculosis model using new history matching and emulation package - hmer](https://www.medrxiv.org/content/10.1101/2022.05.13.22275052v2)
-- [The impact of alternative delivery strategies for novel tuberculosis vaccines in low- and middle-income countries: a modelling study](https://www.medrxiv.org/content/10.1101/2022.04.16.22273762v1)
+- [Demonstrating multi-country calibration of a tuberculosis model using new history matching and emulation package - hmer](https://www.sciencedirect.com/science/article/pii/S1755436523000142?via%3Dihub)
+- [The impact of alternative delivery strategies for novel tuberculosis vaccines in low- and middle-income countries: a modelling study](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(23)00045-1/fulltext)
+- [Is neglect of self-clearance biassing TB vaccine impact estimates?](https://www.medrxiv.org/content/10.1101/2023.04.11.23288400v3)
+- [New tuberculosis vaccines in India: Modelling the potential health and economic impacts of adolescent/adult vaccination with M72/AS01 E and BCG-revaccination](https://pubmed.ncbi.nlm.nih.gov/36865172/)
 
 ## Previous work by our group on calibrating infectious disease models using HME, that led to the development of this package:
 
