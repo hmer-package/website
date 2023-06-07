@@ -17,9 +17,9 @@ In this two-day online workshop, we will introduce you to the history matching a
 
 The workshop will be run by a combination of members of the  Centre for Mathematical Modelling of Infectious Diseases at the London School of Hygiene and Tropical Medicine, of Durham University and of the University of Exeter. It will consist of hands-on, practical tutorials, interspersed with short presentations.
 
-Link to register for deterministic day:  https://www.eventbrite.com/e/calibrating-deterministic-models-using-the-hmer-package-tickets-636543307167
+Link to register for deterministic day: [here](https://www.eventbrite.com/e/calibrating-deterministic-models-using-the-hmer-package-tickets-636543307167)
 
-Link to register for stochastic day:  https://www.eventbrite.com/e/calibrating-stochastic-models-using-the-hmer-package-tickets-636547740427
+Link to register for stochastic day: [here](https://www.eventbrite.com/e/calibrating-stochastic-models-using-the-hmer-package-tickets-636547740427)
 
 ## 8-9 December 2022 Online Workshop - Calibrating deterministic and stochastic models using the hmer package
 
