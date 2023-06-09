@@ -142,7 +142,7 @@ for (i in 1:length(ranges[[k-1]])) {
 # many rows as `non_imp_pts[[k-1]]` and a column for each model output. The columns should be named according to the names in 
 # `targets`. Finally bind `non_imp_pts[[k-1]]` and `results_k`:
 
-wave_data[[k]]<-cbind(non_imp_pts[[k-1]], results_k)
+wave_data[[k]] <- cbind(non_imp_pts[[k-1]], results_k)
 
 
 ################################## Split `wave_data[[k]]` into training and validation sets #################################
@@ -173,10 +173,10 @@ vd <- validation_diagnostics(ems[[k]], validation = validation, targets = target
 # The code below generates points, evaluating their implausibility using all emulators generated in all prior waves. If in 
 # the validation step you decided to discard one or more emulators, then replace `ems[[k]]` with the correct list of 
 # emulators you want to use. When using the `generate_new_runs` function, make sure to pass all emulators trained so far.
-# Note that it is important to put the last-wave emulators first, since the `generate_new_runs` picks the parameter ranges
+# Note that it is important to put the last-wave emulators first, since the `generate_new_design` picks the parameter ranges
 # from the first emulator in the list.
 
-non_imp_pts[[k]] <- generate_new_runs(c(ems[[k]],ems[[k-1]],...,ems[[1]]),  20 * length(ranges[[k]]), targets, verbose=TRUE)
+non_imp_pts[[k]] <- generate_new_design(c(ems[[k]],ems[[k-1]],...,ems[[1]]),  20 * length(ranges[[k]]), targets, verbose=TRUE)
 
 
 
