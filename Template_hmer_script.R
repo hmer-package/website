@@ -42,8 +42,8 @@ non_imp_pts <- list() # non_imp_pts[[k]] will contain the non-implausible points
 
 ############################################## Define a latin hypercube design ##############################################
 
-# This can be done through the function `randomLHS`, which assumes that each parameter is distributed on [0,1]
-initial_LHS <- lhs::randomLHS(20 * length(ranges[[1]]), length(ranges[[1]]))
+# This can be done through the function `maximinLHS`, which assumes that each parameter is distributed on [0,1]
+initial_LHS <- lhs::maximinLHS(20 * length(ranges[[1]]), length(ranges[[1]]))
 # Adjust each parameter range to be the corrected one (instead of [0,1]) and add columns names to identify the parameters
 initial_points <- setNames(data.frame(t(apply(initial_LHS, 1, 
                                               function(x) x*unlist(lapply(ranges[[1]], function(x) x[2]-x[1])) + 
