@@ -56,7 +56,7 @@ initial_points <- setNames(data.frame(t(apply(initial_LHS, 1,
 # many rows as `initial_points` and a column for each model output. The columns should be named according to the names in 
 # `targets`. Finally bind `initial_points` and `initial_results`:
 
-wave_data[[1]]<-cbind(initial_points, initial_results)
+wave_data[[1]] <- cbind(initial_points, initial_results)
 
 
 ################################# Split `wave_data[[1]]` into training and validation sets ##################################
