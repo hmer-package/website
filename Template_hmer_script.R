@@ -42,7 +42,9 @@ non_imp_pts <- list() # non_imp_pts[[k]] will contain the non-implausible points
 ############################################## Define a latin hypercube design ##############################################
 
 # This can be done through the function `maximinLHS`, which assumes that each parameter is distributed on [0,1]
-initial_LHS <- lhs::maximinLHS(20 * length(ranges), length(ranges))
+initial_LHS_training <- lhs::maximinLHS(10 * length(ranges), length(ranges))
+initial_LHS_validation <- lhs::maximinLHS(10 * length(ranges), length(ranges))
+initial_LHS <- rbind(initial_LHS_training, initial_LHS_validation)
 # Adjust each parameter range to be the corrected one (instead of [0,1]) and add columns names to identify the parameters
 initial_points <- setNames(data.frame(t(apply(initial_LHS, 1, 
                                               function(x) x*unlist(lapply(ranges, function(x) x[2]-x[1])) + 
@@ -60,9 +62,8 @@ wave_data[[1]] <- cbind(initial_points, initial_results)
 
 ################################# Split `wave_data[[1]]` into training and validation sets ##################################
 
-t_sample <- sample(1:nrow(wave_data[[1]]), round(length(wave_data[[1]][,1])/2))
-training <- wave_data[[1]][t_sample,]
-validation <- wave_data[[1]][-t_sample,]
+training <- wave_data[[1]][1:10 * length(ranges),]
+validation <- wave_data[[1]][(10 * length(ranges)+1):20 * length(ranges),]
 
 
 
