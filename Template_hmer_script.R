@@ -94,7 +94,31 @@ vd <- validation_diagnostics(ems[[1]], validation = validation, targets = target
 # The following code removes the emulator for `target1` from the list of emulators in the first wave:
 # ems[[1]]$`target1` <- NULL
 
-
+# You can also automate the diagnostic process, with the code below, which does the following:
+# 1. Check if there are misclassifications for each emulator (middle column diagnostic in plot above) with the function 
+# classification_diag;
+# 2. In case of misclassifications, increase the sigma (say by 10%) and go to step 1.
+# 3. Once misclassifications have been eliminated, we check how many validation points fail the first of the diagnostics 
+# (left column in plot above) with the function comparison_diag, and discard an emulator if it produces too many failures. 
+# The code below implements this, removing emulators for which more than 10% of validation points do not pass the first 
+# diagnostic.
+for (j in 1:length(ems[[1]])) {
+      misclass <- nrow(classification_diag(ems[[1]][[j]], targets, validation, plt = FALSE))
+      while(misclass > 0) {
+        ems[[1]][[j]] <- ems[[1]][[j]]$mult_sigma(1.1)
+        misclass <- nrow(classification_diag(ems[[1]][[j]], targets, validation, plt = FALSE))
+      }
+}
+bad.ems <- c()
+for (j in 1:length(ems[[1]])) {
+          bad.model <- nrow(comparison_diag(ems[[1]][[j]], targets, validation, plt = FALSE))
+          if (bad.model > floor(nrow(validation)/10)) {
+            bad.ems <- c(bad.ems, j)
+   }
+}
+ems[[1]] <- ems[[1]][!seq_along(ems[[1]]) %in% bad.ems]
+                                                                
+                                                                
 ######################## Generate non-implausible points through the function `generate_new_runs` ###########################
 
 # The code below generates points that are deemed non-implausible by all wave-1 emulators and assigns the obtained points to
@@ -150,6 +174,24 @@ vd <- validation_diagnostics(ems[[k]], validation = validation, targets = target
 # If all emulators pass the three tests, go to the next section (point proposal). Otherwise try to improve them by increasing 
 # their sigmas. As already mentioned above, you can also choose not to use an emulator at any given wave, if its performance 
 # is particularly poor. 
+                                                                
+# You can also automate the diagnostic check, using the code below
+                                                                
+for (j in 1:length(ems[[k]])) {
+      misclass <- nrow(classification_diag(ems[[k]][[j]], targets, validation, plt = FALSE))
+      while(misclass > 0) {
+        ems[[k]][[j]] <- ems[[k]][[j]]$mult_sigma(1.1)
+        misclass <- nrow(classification_diag(ems[[k]][[j]], targets, validation, plt = FALSE))
+      }
+}
+bad.ems <- c()
+for (j in 1:length(ems[[k]])) {
+          bad.model <- nrow(comparison_diag(ems[[k]][[j]], targets, validation, plt = FALSE))
+          if (bad.model > floor(nrow(validation)/10)) {
+            bad.ems <- c(bad.ems, j)
+   }
+}
+ems[[k]] <- ems[[k]][!seq_along(ems[[k]]) %in% bad.ems]
 
 
 ######################## Generate non-implausible points through the function `generate_new_runs` ###########################
