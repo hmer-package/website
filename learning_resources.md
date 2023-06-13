@@ -42,7 +42,7 @@ In addition to those resources, we created the following tutorials, meant to be 
 
 3. [Stochastic practical tutorial](https://danny-sc.github.io/stoch_workshop/index.html): a practical introduction to _hmer_'s functionalities for the calibration of models presenting stochasticity and/or bimodality. You can work through this practical tutorial by running the [R script without solutions](https://github.com/hmer-package/website/blob/gh-pages/stoch_workshop_code_with_sols.R) line by line. Note that the tutorial has tasks that require you to write your own code. Solutions to these tasks can be found both in the html file and in the [R script with solutions](https://github.com/hmer-package/website/blob/gh-pages/stoch_workshop_code_without_sols.R).
 
-Relationships between parameters (e.g. param_1 < param_2) can be taken into consideration in the history matching process by the customisation of the implausibility measure. A brief guide on how to do so can be found [here](https://danny-sc.github.io/hmer_custom_implausibility/index.html).
+Relationships between parameters (e.g. param_1 < param_2) can be taken into consideration in the history matching process by the customisation of the implausibility measure. A brief guide on how to customise implausibility can be found [here](https://danny-sc.github.io/hmer_custom_implausibility/index.html).
 
 
 ## Template to set up HME on your model 
