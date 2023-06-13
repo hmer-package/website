@@ -36,7 +36,7 @@ The _hmer_ package is available on CRAN, together with
 
 In addition to those resources, we created the following tutorials, meant to be addressed in the proposed ordered:
 
-1. [Deterministic tutorial](https://danny-sc.github.io/Tutorial_2/): a general introduction to _hmer_'s functionalities for the calibration of deterministic models. In Section 2 of this tutorial, we show how to use the `full_wave` function, which allows to perform a wave of the history matching with emulation process just with one command.
+1. [Deterministic tutorial](https://danny-sc.github.io/Tutorial_2/): a general introduction to _hmer_'s functionalities for the calibration of deterministic models. In Section 2 of this tutorial, we show how to use the _full_wave_ function, which allows to perform a wave of the history matching with emulation process just with one command.
 
 2. [Deterministic practical tutorial](https://danny-sc.github.io/determ_workshop/): a practical, interactive introduction to _hmer_'s functionalities for the calibration of deterministic models. You can work through this practical tutorial by running the [R script without solutions](https://github.com/hmer-package/website/blob/gh-pages/determ_workshop_code_without_sols.R) line by line. Note that the tutorial has tasks that require you to write your own code. Solutions to these tasks can be found both in the html file and in the [R script with solutions](https://github.com/hmer-package/website/blob/gh-pages/determ_workshop_code_with_sols.R). A shorter version of this tutorial can be found [here](https://danny-sc.github.io/short_tutorial_hmer/intro.html).
 
