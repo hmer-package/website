@@ -36,14 +36,13 @@ The _hmer_ package is available on CRAN, together with
 
 In addition to those resources, we created the following tutorials, meant to be addressed in the proposed ordered:
 
-1. [Deterministic tutorial](https://danny-sc.github.io/Tutorial_2/): a general introduction to _hmer_'s functionalities for the calibration of deterministic models.
+1. [Deterministic tutorial](https://danny-sc.github.io/Tutorial_2/): a general introduction to _hmer_'s functionalities for the calibration of deterministic models. In Section 2 of this tutorial, we show how to use the `full_wave` function, which allows to perform a wave of the history matching with emulation process just with one command.
 
 2. [Deterministic practical tutorial](https://danny-sc.github.io/determ_workshop/): a practical, interactive introduction to _hmer_'s functionalities for the calibration of deterministic models. You can work through this practical tutorial by running the [R script without solutions](https://github.com/hmer-package/website/blob/gh-pages/determ_workshop_code_without_sols.R) line by line. Note that the tutorial has tasks that require you to write your own code. Solutions to these tasks can be found both in the html file and in the [R script with solutions](https://github.com/hmer-package/website/blob/gh-pages/determ_workshop_code_with_sols.R). A shorter version of this tutorial can be found [here](https://danny-sc.github.io/short_tutorial_hmer/intro.html).
 
 3. [Stochastic practical tutorial](https://danny-sc.github.io/stoch_workshop/index.html): a practical introduction to _hmer_'s functionalities for the calibration of models presenting stochasticity and/or bimodality. You can work through this practical tutorial by running the [R script without solutions](https://github.com/hmer-package/website/blob/gh-pages/stoch_workshop_code_with_sols.R) line by line. Note that the tutorial has tasks that require you to write your own code. Solutions to these tasks can be found both in the html file and in the [R script with solutions](https://github.com/hmer-package/website/blob/gh-pages/stoch_workshop_code_without_sols.R).
 
 Relationships between parameters (e.g. param_1 < param_2) can be taken into consideration in the history matching process by the customisation of the implausibility measure. A brief guide on how to customise implausibility can be found [here](https://danny-sc.github.io/hmer_custom_implausibility/index.html).
-
 
 ## Template to set up HME on your model 
 This repository contains an R-script [Deterministic_Template_hmer_script](https://raw.githubusercontent.com/hmer-package/website/gh-pages/Template_hmer_script.R) that will guide you through setting up history matching with emulation on your deterministic model of interest. If instead you would like to calibrate a stochastic model, you can use the [Stochastic_Template_hmer_script](https://raw.githubusercontent.com/hmer-package/website/gh-pages/Stochastic_Template_hmer_script).
