@@ -107,6 +107,7 @@ vd <- validation_diagnostics(ems[[1]], validation = validation, targets = target
 # (left column in plot above) with the function comparison_diag, and discard an emulator if it produces too many failures. 
 # The code below implements this, removing emulators for which more than 10% of validation points do not pass the first 
 # diagnostic.
+
 for (j in 1:length(ems[[1]])) {
       misclass <- nrow(classification_diag(ems[[1]][[j]], targets, validation, plt = FALSE))
       while(misclass > 0) {
