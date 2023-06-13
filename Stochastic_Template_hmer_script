@@ -182,6 +182,24 @@ vd <- validation_diagnostics(ems[[k]], validation = validation, targets = target
 # their sigmas. As already mentioned above, you can also choose not to use an emulator at any given wave, if its performance 
 # is particularly poor. 
 
+# You can also automate the diagnostic check, using the code below
+                                                                
+for (j in 1:length(ems[[k]])) {
+      misclass <- nrow(classification_diag(ems[[k]][[j]], targets, validation, plt = FALSE))
+      while(misclass > 0) {
+        ems[[k]][[j]] <- ems[[k]][[j]]$mult_sigma(1.1)
+        misclass <- nrow(classification_diag(ems[[k]][[j]], targets, validation, plt = FALSE))
+      }
+}
+bad.ems <- c()
+for (j in 1:length(ems[[k]])) {
+          bad.model <- nrow(comparison_diag(ems[[k]][[j]], targets, validation, plt = FALSE))
+          if (bad.model > floor(nrow(validation)/10)) {
+            bad.ems <- c(bad.ems, j)
+   }
+}
+ems[[k]] <- ems[[k]][!seq_along(ems[[k]]) %in% bad.ems]
+
 
 ######################## Generate non-implausible points through the function `generate_new_runs` ###########################
 
