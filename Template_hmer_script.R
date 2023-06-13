@@ -14,16 +14,15 @@ require(lhs)
 
 ems <- list() # ems[[k]] will contain wave-k emulators
 wave_data <- list() # wave_data[[k]] will contain the data used to train and validate wave-k emulators
-ranges <- list() # ranges[[k]] will contain the parameter ranges used to train wave-k emulators
 non_imp_pts <- list() # non_imp_pts[[k]] will contain the non-implausible points generated at the end of wave k
 
 # You may also wish to save to file the data from the different waves
 
-################################### Assign the initial parameter ranges to `ranges[[1]]` ####################################
+################################### Assign the initial parameter ranges to `ranges` ####################################
 
 # For example if you have three parameters, called `param1`, `param2` and `param3`, with ranges (a1,b1), (a2,b2) and (a3,b3), 
-# `ranges[[1]]` would be:
-# ranges[[1]] = list(
+# `ranges` would be:
+# ranges = list(
 #     param1 = c(a1,b1), 
 #     param2 = c(a2,b2),
 #     param3 = c(a3,b3)
@@ -43,11 +42,11 @@ non_imp_pts <- list() # non_imp_pts[[k]] will contain the non-implausible points
 ############################################## Define a latin hypercube design ##############################################
 
 # This can be done through the function `maximinLHS`, which assumes that each parameter is distributed on [0,1]
-initial_LHS <- lhs::maximinLHS(20 * length(ranges[[1]]), length(ranges[[1]]))
+initial_LHS <- lhs::maximinLHS(20 * length(ranges), length(ranges))
 # Adjust each parameter range to be the corrected one (instead of [0,1]) and add columns names to identify the parameters
 initial_points <- setNames(data.frame(t(apply(initial_LHS, 1, 
-                                              function(x) x*unlist(lapply(ranges[[1]], function(x) x[2]-x[1])) + 
-                                                  unlist(lapply(ranges[[1]], function(x) x[1]))))), names(ranges[[1]]))
+                                              function(x) x*unlist(lapply(ranges, function(x) x[2]-x[1])) + 
+                                                  unlist(lapply(ranges, function(x) x[1]))))), names(ranges))
 
 
 ###################### Assign `initial_points` and the correspondent model outputs to `wave_data[[1]]` ######################
@@ -74,7 +73,7 @@ validation <- wave_data[[1]][-t_sample,]
 
 ############################# Train wave-1 emulators through the function `emulator_from_data` ##############################
 
-ems[[1]] <- emulator_from_data(training, names(targets), ranges[[1]])
+ems[[1]] <- emulator_from_data(training, names(targets), ranges)
 
 
 ######################### Validate wave-1 emulators through the function `validation_diagnostics` ###########################
@@ -102,7 +101,7 @@ vd <- validation_diagnostics(ems[[1]], validation = validation, targets = target
 # the correct sublist of emulators. We suggest generating 20 points for each input parameter varied, however this can be 
 # changed to create fewer or more points.
 
-non_imp_pts[[1]] <- generate_new_design(ems[[1]],  20 * length(ranges[[1]]), targets, verbose=TRUE)
+non_imp_pts[[1]] <- generate_new_design(ems[[1]],  20 * length(ranges), targets, verbose=TRUE)
 
 
 
@@ -115,26 +114,7 @@ non_imp_pts[[1]] <- generate_new_design(ems[[1]],  20 * length(ranges[[1]]), tar
 
 k <- 2
 
-
-############################################# Define the new parameters' ranges #############################################
-
-# Wave-k emulators will be trained only on the non-implausible region found in wave (k-1). To do this, we define new ranges 
-# for the parameters, identifying the smallest hyper-rectangle containing all points in `non_imp_pts[[k-1]]`. When defining
-# such a hyper-rectangle, we first find the minimum and maximum value of each parameter and then add (resp. subtract) 5% of 
-# the obtained range to the maximum (resp. minimum). This is to provide a safety margin, and help ensure that we do not 
-# discard any non-implausible point. The new ranges are then stored in `ranges[[k]]`. 
-
-min_val <- list()
-max_val <- list()
-for (i in 1:length(ranges[[k-1]])) {
-    par <- names(ranges[[1]])[[i]]
-    min_val[[par]] <- max(min(non_imp_pts[[k-1]][,par])-0.05*diff(range(non_imp_pts[[k-1]][,par])), 
-                          ranges[[1]][[par]][1])
-    max_val[[par]] <- min(max(non_imp_pts[[k-1]][,par])+0.05*diff(range(non_imp_pts[[k-1]][,par])),
-                          ranges[[1]][[par]][2])
-    ranges[[k]][[par]] <- c(min_val[[par]], max_val[[par]])
-}
-
+                                                                
 
 #################### Assign `non_imp_pts[[k-1]]` and the correspondent model outputs to `wave_data[[k]]` ####################
 
@@ -154,7 +134,10 @@ validation <- wave_data[[k]][-t_sample,]
 
 ############################# Train wave-k emulators through the function `emulator_from_data` ##############################
 
-ems[[k]] <- emulator_from_data(training, names(targets), ranges[[k]])
+# From wave 2 on, set `check.ranges=TRUE` to ensure that the new emulators are trained only on the non-implausible space 
+# identified in the previous wave.
+                                                                
+ems[[k]] <- emulator_from_data(training, names(targets), ranges, check.ranges=TRUE)
 
 
 ######################### Validate wave-k emulators through the function `validation_diagnostics` ###########################
@@ -176,7 +159,7 @@ vd <- validation_diagnostics(ems[[k]], validation = validation, targets = target
 # Note that it is important to put the last-wave emulators first, since the `generate_new_design` picks the parameter ranges
 # from the first emulator in the list.
 
-non_imp_pts[[k]] <- generate_new_design(c(ems[[k]],ems[[k-1]],...,ems[[1]]),  20 * length(ranges[[k]]), targets, verbose=TRUE)
+non_imp_pts[[k]] <- generate_new_design(c(ems[[k]],ems[[k-1]],...,ems[[1]]),  20 * length(ranges), targets, verbose=TRUE)
 
 
 
