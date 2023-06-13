@@ -1,7 +1,7 @@
 require(hmer)
 require(lhs)
 
-# This R-script is a template for you to perform history matching with emulation on a deterministic model. Note that while 
+# This R-script is a template for you to perform history matching with emulation on a stochastic model. Note that while 
 # some sections contain code that is ready to be run, in other sections you will have to adapt the code to your own model.
 
 
@@ -53,17 +53,19 @@ initial_points <- setNames(data.frame(t(apply(initial_LHS, 1,
 
 ###################### Assign `initial_points` and the correspondent model outputs to `wave_data[[1]]` ######################
 
-# First run the model on the parameter sets in `initial_points`. Put the outputs in a dataframe `initial_results`, having as 
-# many rows as `initial_points` and a column for each model output. The columns should be named according to the names in 
-# `targets`. Finally bind `initial_points` and `initial_results`:
+# First run the model on the parameter sets in `initial_points`. For each parameter set you can run the model several times.
+# Note that there is no need to run the model the same number of times at different parameter sets. Put the outputs in a 
+# dataframe `initial_results`, having a column for each model output. Different model runs for the same parameter set should 
+# go into separate rows. The columns should be named according to the names in `targets`. Finally bind `initial_points` and 
+# `initial_results`:
 
 wave_data[[1]] <- cbind(initial_points, initial_results)
 
 
 ################################# Split `wave_data[[1]]` into training and validation sets ##################################
 
-training <- wave_data[[1]][1:10 * length(ranges),]
-validation <- wave_data[[1]][(10 * length(ranges)+1):20 * length(ranges),]
+# `training` should contain all the rows of `wave_data[[1]]` that refer to parameter sets in `initial_LHS_training`
+# `validation` should contain all the rows of `wave_data[[1]]` that refer to parameter sets in `initial_LHS_validation`
 
 
 
@@ -74,7 +76,10 @@ validation <- wave_data[[1]][(10 * length(ranges)+1):20 * length(ranges),]
 
 ############################# Train wave-1 emulators through the function `emulator_from_data` ##############################
 
-ems[[1]] <- emulator_from_data(training, names(targets), ranges)
+# Set emulator_type = 'variance' if you want to train variance emulators. If you want to train bimodal emulators, set 
+# emulator_type = 'multistate' instead.
+
+ems[[1]] <- emulator_from_data(training, names(targets), ranges, emulator_type = 'variance')
 
 
 ######################### Validate wave-1 emulators through the function `validation_diagnostics` ###########################
@@ -119,18 +124,18 @@ k <- 2
 
 #################### Assign `non_imp_pts[[k-1]]` and the correspondent model outputs to `wave_data[[k]]` ####################
 
-# First run the model on the parameter sets in `non_imp_pts[[k-1]]`. Put the outputs in a dataframe `results_k`, having as 
-# many rows as `non_imp_pts[[k-1]]` and a column for each model output. The columns should be named according to the names in 
-# `targets`. Finally bind `non_imp_pts[[k-1]]` and `results_k`:
+# First run the model on the parameter sets in `non_imp_pts[[k-1]]`. Several runs at the same parameter sets should be 
+# done. Put the outputs in a dataframe `results_k`, having a column for each model output. The columns should be named 
+# according to the names in `targets`. Finally bind `non_imp_pts[[k-1]]` and `results_k`:
 
 wave_data[[k]] <- cbind(non_imp_pts[[k-1]], results_k)
 
 
 ################################## Split `wave_data[[k]]` into training and validation sets #################################
 
-t_sample <- sample(1:nrow(wave_data[[k]]), round(length(wave_data[[k]][,1])/2))
-training <- wave_data[[k]][t_sample,]
-validation <- wave_data[[k]][-t_sample,]
+# `training` should contain half (or more) of the rows of `wave_data[[k]]` 
+# `validation` should contain half (or less) of the rows of `wave_data[[k]]` that refer to parameter sets in 
+# `initial_LHS_validation`
 
 
 ############################# Train wave-k emulators through the function `emulator_from_data` ##############################
@@ -138,7 +143,7 @@ validation <- wave_data[[k]][-t_sample,]
 # From wave 2 on, set `check.ranges=TRUE` to ensure that the new emulators are trained only on the non-implausible space 
 # identified in the previous wave.
                                                                 
-ems[[k]] <- emulator_from_data(training, names(targets), ranges, check.ranges=TRUE)
+ems[[k]] <- emulator_from_data(training, names(targets), ranges, check.ranges=TRUE, emulator_type = 'variance')
 
 
 ######################### Validate wave-k emulators through the function `validation_diagnostics` ###########################
